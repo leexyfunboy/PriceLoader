@@ -2,10 +2,20 @@
 
 **也方便其他人帮忙时，能够知道价格，卖一次东西，就跑回去问一次，真的很尴尬呀**
 
-## ![](README.assets/1.jpg)
 
-![2](README.assets/2.jpg)
 
-![3](README.assets/3.jpg)
+**本地SQLite保存商品数据，**
 
-![4](README.assets/4.jpg)
+**ZXING框架，条码扫描**
+
+
+
+
+
+## <img src="README.assets/1.jpg" style="zoom: 25%;" />
+
+<img src="README.assets/2.jpg" alt="2" style="zoom:25%;" />
+
+<img src="README.assets/3.jpg" alt="3" style="zoom:25%;" />
+
+<img src="README.assets/4.jpg" alt="4" style="zoom:25%;" />

@@ -19,10 +19,4 @@
 
 
 
-## <img src="README.assets/1.jpg" style="zoom: 25%;" />
-
-## <img src="README.assets/2.jpg" style="zoom:25%;" />
-
-## <img src="README.assets/3.jpg" style="zoom:25%;" />
-
-## <img src="README.assets/4.jpg" style="zoom:25%;" />
+## <img src="README.assets/1.jpg" style="zoom: 25%;" /><img src="README.assets/2.jpg" style="zoom:25%;" /><img src="README.assets/3.jpg" style="zoom:25%;" /><img src="README.assets/4.jpg" style="zoom:25%;" /><img src="README.assets/5-16761097173562.jpg" style="zoom:25%;" />

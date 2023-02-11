@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shadow_style"
+    tools:context=".activity.AddAC">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddAC_tx_title"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13">
+
+
+        <TableRow
+            android:background="@drawable/default_layout_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/AddAC_tx_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddAC_tx_id"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/AddAC_ed_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/AddAC_imgv_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/default_layout_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/AddAC_tx_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddAC_tx_name"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/AddAC_ed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/default_layout_style1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/AddAC_tx_singleprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddAC_tx_singleprice"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/AddAC_ed_singleprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/default_layout_style1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/AddAC_tx_finalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddAC_tx_finalprice"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/AddAC_ed_finalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/default_layout_style1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/AddAC_tx_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddAC_tx_count"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/AddAC_ed_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/AddAC_bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_style_red"
+            android:text="@string/AddAC_bt_cancel" />
+
+        <Button
+            android:id="@+id/AddAC_bt_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_style_black"
+            android:text="@string/AddAC_bt_clean" />
+
+        <Button
+            android:id="@+id/AddAC_bt_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@drawable/btn_style_green"
+            android:text="@string/AddAC_bt_submit" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

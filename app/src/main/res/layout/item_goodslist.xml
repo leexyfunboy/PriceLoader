@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/yellow"
+    android:id="@+id/goodsList_rootView">
+
+    <CheckBox
+        android:id="@+id/item_goodsList_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_goodsList_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_goodsList_checkbox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintStart_toEndOf="@+id/item_goodsList_index"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/item_goodsList_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_goodsList_zhanwei"
+            android:text="@string/goodsList_id"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/item_goodsList_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_goodsList_zhanwei"
+            android:text="@string/goodsList_name"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/item_goodsList_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/goodsList_lable"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_goodsList_singlePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_goodsList_zhanwei2"
+            android:text="@string/goodsList_singlePrice"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/goodsList_count"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:text="@string/goodsList_count" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/goodsList_finalPrice"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:text="@string/goodsList_finalPrice" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

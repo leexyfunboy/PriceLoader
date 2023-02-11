@@ -6,7 +6,14 @@
 
 **本地SQLite保存商品数据，**
 
-**ZXING框架，条码扫描**
+**SharePreferences，**
+
+**RecyclerView，**
+
+**ZXING框架，条码扫描，**
+
+**EventBus获取扫描结果,**
+
 
 
 
@@ -14,8 +21,8 @@
 
 ## <img src="README.assets/1.jpg" style="zoom: 25%;" />
 
-<img src="README.assets/2.jpg" alt="2" style="zoom:25%;" />
+## <img src="README.assets/2.jpg" style="zoom:25%;" />
 
-<img src="README.assets/3.jpg" alt="3" style="zoom:25%;" />
+## <img src="README.assets/3.jpg" style="zoom:25%;" />
 
-<img src="README.assets/4.jpg" alt="4" style="zoom:25%;" />
+## <img src="README.assets/4.jpg" style="zoom:25%;" />
